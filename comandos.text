@@ -1,0 +1,20 @@
+colcon build --packages-select avion
+source install/setup.bash
+ros2 launch avion mundo_avion.launch.py
+
+
+
+ros2 topic pub /set_pose_topic geometry_msgs/msg/Pose \
+"{position: {x: 5.0, y: 0.0, z: 1.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}"
+
+
+
+
+
+
+cd ~/microros_ws
+source install/setup.bash
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 -v6
+
+ros2 topic echo /set_pose_topic
+

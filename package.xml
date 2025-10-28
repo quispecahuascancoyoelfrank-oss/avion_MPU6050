@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>avion</name>
+  <version>0.0.1</version>
+  <description>Paquete ROS 2 con plugin de Gazebo y modelos de avión</description>
+
+  <maintainer email="yoel@example.com">Yoel Quispe</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+
+  <!-- Ignition Gazebo -->
+  <depend>ignition-gazebo6</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

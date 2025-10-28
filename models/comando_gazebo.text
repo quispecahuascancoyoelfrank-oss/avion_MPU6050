@@ -1,0 +1,4 @@
+ign topic -t /set_pose_topic -m ignition.msgs.Pose -p \
+  "position: {x: 5, y: 0, z: 1}, orientation: {x: 0, y: 0, z: 0, w: 1}"
+
+export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=$IGN_GAZEBO_SYSTEM_PLUGIN_PATH:/home/yoel/avion_ws/src/avion/models
