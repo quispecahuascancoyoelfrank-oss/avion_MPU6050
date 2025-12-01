@@ -16,8 +16,13 @@ El sistema permite visualizar en tiempo real la orientación del avión según l
 - **MPU6050**
 
 ---
+🎥 Video demostrativo del funcionamiento:
+https://vt.tiktok.com/ZSfphyq2T/
 
+👤 Autor: YOEL FRANK QUISPE CAHUASCANCO
+---
 ## 🧱 Estructura del proyecto
+
 ```bash
 .
 └── avion_mpu6050
